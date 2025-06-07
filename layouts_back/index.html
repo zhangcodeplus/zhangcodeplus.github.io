@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="UTF-8">
+  <title>AirFaucet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin:0;
+      min-height:100vh;
+      font-family:system-ui,sans-serif;
+      background: linear-gradient(135deg, #e0e7ff 0%, #f6f6fa 100%);
+    }
+    .site-brand {
+      position: absolute;
+      top: 18px;
+      left: 32px;
+      display: flex;
+      align-items: center;
+      z-index: 20;
+    }
+    .site-brand-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+    .site-brand .logo {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 2px 8px #0002;
+      background: #fff;
+      margin-right: 12px;
+    }
+    .site-brand .brand-text {
+      font-size: 1.45rem;
+      font-weight: bold;
+      color: #007bff;
+      letter-spacing: 1px;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+    }
+    .site-brand-link:hover .brand-text {
+      color: #0056b3;
+    }
+    .topnav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      background: #fff;
+      box-shadow: 0 2px 8px #0001;
+      padding: 1.2rem 0;
+      margin-bottom: 40px;
+      position: relative;
+      z-index: 10;
+    }
+    .topnav .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .topnav .dropbtn {
+      font-size: 1.15rem;
+      font-weight: 500;
+      color: #007bff;
+      background: none;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 0.5rem 1.2rem;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+    .topnav .dropbtn:hover, .topnav .dropdown:hover .dropbtn {
+      background: #e6f0ff;
+    }
+    .topnav .dropdown-content {
+      display: none;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      min-width: 180px;
+      background: #fff;
+      box-shadow: 0 4px 16px #0002;
+      border-radius: 8px;
+      z-index: 20;
+      margin-top: 0.2rem;
+    }
+    .topnav .dropdown-content a {
+      display: block;
+      color: #007bff;
+      padding: 0.7rem 1.2rem;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: background 0.2s;
+    }
+    .topnav .dropdown-content a:hover {
+      background: #e6f0ff;
+    }
+    .topnav .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .card-row {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 0 auto 40px auto;
+      max-width: 1200px;
+      flex-wrap: wrap;
+    }
+    .card {
+      flex: 1 1 320px;
+      max-width: 370px;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 2px 16px #0002;
+      padding: 2rem 1.5rem 1.5rem 1.5rem;
+      min-height: 320px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: stretch;
+    }
+    .card-title {
+      font-size: 1.35rem;
+      font-weight: bold;
+      margin-bottom: 1.2rem;
+      color: #007bff;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+    .card-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      flex: 1 1 auto;
+      overflow-y: auto;
+      max-height: 260px;
+    }
+    .card-list li {
+      margin-bottom: 0.7rem;
+      font-size: 1.05rem;
+    }
+    .card-list a {
+      color: #222;
+      text-decoration: none;
+      border-bottom: 1px dotted #007bff55;
+      transition: color 0.2s;
+    }
+    .card-list a:hover {
+      color: #007bff;
+    }
+    @media (max-width: 1100px) {
+      .card-row { max-width: 98vw; gap: 1rem; }
+      .card { max-width: 98vw; }
+    }
+    @media (max-width: 900px) {
+      .card-row { flex-direction: column; align-items: center; }
+      .card { width: 95vw; max-width: 400px; }
+    }
+    @media (max-width: 700px) {
+      .site-brand { left: 10px; top: 10px; }
+      .card { padding: 1.2rem 0.7rem; }
+    }
+  </style>
+</head>
+<body>
+  {{ partial "header.html" . }}
+  <div class="card-row">
+    <div class="card">
+      <div class="card-title">{{ i18n "latest-airdrops" }}</div>
+      <ul class="card-list">
+        {{ range first 12 (where .Site.RegularPages "Params.categories" (i18n "airdrop-category")) }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span style="color:#aaa;font-size:0.95em;">{{ .Date.Format "2006-01-02" }}</span></li>
+        {{ else }}
+          <li style="color:#bbb;">{{ i18n "no-content" }}</li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="card">
+      <div class="card-title">{{ i18n "featured-projects" }}</div>
+      <ul class="card-list">
+        {{ range first 12 (where .Site.RegularPages "Params.categories" (i18n "featured-category")) }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span style="color:#aaa;font-size:0.95em;">{{ .Date.Format "2006-01-02" }}</span></li>
+        {{ else }}
+          <li style="color:#bbb;">{{ i18n "no-content" }}</li>
+        {{ end }}
+      </ul>
+    </div>
+    <div class="card">
+      <div class="card-title">{{ i18n "latest-mining" }}</div>
+      <ul class="card-list">
+        {{ range first 12 (where .Site.RegularPages "Params.categories" (i18n "mining-category")) }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span style="color:#aaa;font-size:0.95em;">{{ .Date.Format "2006-01-02" }}</span></li>
+        {{ else }}
+          <li style="color:#bbb;">{{ i18n "no-content" }}</li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+  {{ partial "footer.html" . }}
+</body>
+</html> 

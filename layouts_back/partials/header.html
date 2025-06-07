@@ -1,0 +1,40 @@
+<div class="site-brand">
+  <a class="site-brand-link" href="{{ .Site.Home.RelPermalink }}">
+    <img class="logo" src="/images/logo.png" alt="logo" onerror="this.style.display='none'">
+    <span class="brand-text">AirFaucet</span>
+  </a>
+</div>
+<nav class="topnav">
+  <div class="dropdown">
+    <button class="dropbtn">{{ i18n "mining" }}</button>
+    <div class="dropdown-content">
+      <a href="{{ relLangURL (i18n "mobile-mining-url") }}">{{ i18n "mobile-mining" }}</a>
+      <a href="{{ relLangURL (i18n "mining-machine-url") }}">{{ i18n "mining-machine" }}</a>
+      <a href="{{ relLangURL (i18n "home-mining-url") }}">{{ i18n "home-mining" }}</a>
+      <a href="{{ relLangURL (i18n "crypto-proxy-url") }}">{{ i18n "crypto-proxy" }}</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">{{ i18n "featured-airdrops" }}</button>
+    <div class="dropdown-content">
+      <a href="{{ relLangURL (i18n "auto-airdrop-url") }}">{{ i18n "auto-airdrop" }}</a>
+      <a href="{{ relLangURL (i18n "interactive-airdrop-url") }}">{{ i18n "interactive-airdrop" }}</a>
+      <a href="{{ relLangURL (i18n "game-airdrop-url") }}">{{ i18n "game-airdrop" }}</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">{{ i18n "airdrop-tutorials" }}</button>
+    <div class="dropdown-content">
+      <a href="{{ relLangURL (i18n "basic-equipment-url") }}">{{ i18n "basic-equipment" }}</a>
+      <a href="{{ relLangURL (i18n "advanced-tutorials-url") }}">{{ i18n "advanced-tutorials" }}</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">{{ i18n "exchange-recommendations" }}</button>
+    <div class="dropdown-content">
+      <a href="{{ relLangURL (i18n "cex-recommendations-url") }}">{{ i18n "cex-recommendations" }}</a>
+      <a href="{{ relLangURL (i18n "dex-recommendations-url") }}">{{ i18n "dex-recommendations" }}</a>
+      <a href="{{ relLangURL (i18n "staking-url") }}">{{ i18n "staking" }}</a>
+    </div>
+  </div>
+</nav> 

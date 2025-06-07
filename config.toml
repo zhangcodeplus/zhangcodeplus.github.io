@@ -1,0 +1,187 @@
+baseURL = "/"
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = false
+theme = "ananke"
+
+[languages]
+  [languages.zh]
+    languageName = "中文"
+    weight = 1
+    contentDir = "content/zh"
+    title = "AirFaucet"
+    languageCode = "zh-CN"
+    [languages.zh.menu]
+      [[languages.zh.menu.main]]
+        identifier = "mining"
+        name = "挖矿"
+        url = "/zh/categories/挖矿/"
+        weight = 1
+      [[languages.zh.menu.main]]
+        parent = "mining"
+        name = "手机挖矿"
+        url = "/zh/categories/手机挖矿/"
+        weight = 11
+      [[languages.zh.menu.main]]
+        parent = "mining"
+        name = "矿机"
+        url = "/zh/categories/矿机/"
+        weight = 12
+      [[languages.zh.menu.main]]
+        parent = "mining"
+        name = "家庭挖矿"
+        url = "/zh/categories/家庭挖矿/"
+        weight = 13
+      [[languages.zh.menu.main]]
+        parent = "mining"
+        name = "加密代理"
+        url = "/zh/categories/加密代理/"
+        weight = 14
+      [[languages.zh.menu.main]]
+        identifier = "airdrop"
+        name = "空投推荐"
+        url = "/zh/categories/空投推荐/"
+        weight = 2
+      [[languages.zh.menu.main]]
+        parent = "airdrop"
+        name = "挂机空投"
+        url = "/zh/categories/挂机空投/"
+        weight = 21
+      [[languages.zh.menu.main]]
+        parent = "airdrop"
+        name = "交互空投"
+        url = "/zh/categories/交互空投/"
+        weight = 22
+      [[languages.zh.menu.main]]
+        parent = "airdrop"
+        name = "游戏空投"
+        url = "/zh/categories/游戏空投/"
+        weight = 23
+      [[languages.zh.menu.main]]
+        identifier = "tutorial"
+        name = "空投教程"
+        url = "/zh/categories/空投教程/"
+        weight = 3
+      [[languages.zh.menu.main]]
+        parent = "tutorial"
+        name = "基础装备"
+        url = "/zh/categories/基础装备/"
+        weight = 31
+      [[languages.zh.menu.main]]
+        parent = "tutorial"
+        name = "进阶教程"
+        url = "/zh/categories/进阶教程/"
+        weight = 32
+      [[languages.zh.menu.main]]
+        identifier = "exchange"
+        name = "交易所推荐"
+        url = "/zh/categories/交易所推荐/"
+        weight = 4
+      [[languages.zh.menu.main]]
+        parent = "exchange"
+        name = "CEX推荐"
+        url = "/zh/categories/CEX推荐/"
+        weight = 41
+      [[languages.zh.menu.main]]
+        parent = "exchange"
+        name = "DEX推荐"
+        url = "/zh/categories/DEX推荐/"
+        weight = 42
+      [[languages.zh.menu.main]]
+        parent = "exchange"
+        name = "质押"
+        url = "/zh/categories/质押/"
+        weight = 43
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    contentDir = "content/en"
+    title = "My Blog"
+    languageCode = "en-US"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "mining"
+        name = "Mining"
+        url = "/en/categories/mining/"
+        weight = 1
+      [[languages.en.menu.main]]
+        parent = "mining"
+        name = "Mobile Mining"
+        url = "/en/categories/mobile-mining/"
+        weight = 11
+      [[languages.en.menu.main]]
+        parent = "mining"
+        name = "Mining Machine"
+        url = "/en/categories/mining-machine/"
+        weight = 12
+      [[languages.en.menu.main]]
+        parent = "mining"
+        name = "Home Mining"
+        url = "/en/categories/home-mining/"
+        weight = 13
+      [[languages.en.menu.main]]
+        parent = "mining"
+        name = "Crypto Proxy"
+        url = "/en/categories/crypto-proxy/"
+        weight = 14
+      [[languages.en.menu.main]]
+        identifier = "airdrop"
+        name = "Featured Airdrops"
+        url = "/en/categories/featured-airdrops/"
+        weight = 2
+      [[languages.en.menu.main]]
+        parent = "airdrop"
+        name = "Auto Airdrop"
+        url = "/en/categories/auto-airdrop/"
+        weight = 21
+      [[languages.en.menu.main]]
+        parent = "airdrop"
+        name = "Interactive Airdrop"
+        url = "/en/categories/interactive-airdrop/"
+        weight = 22
+      [[languages.en.menu.main]]
+        parent = "airdrop"
+        name = "Game Airdrop"
+        url = "/en/categories/game-airdrop/"
+        weight = 23
+      [[languages.en.menu.main]]
+        identifier = "tutorial"
+        name = "Airdrop Tutorials"
+        url = "/en/categories/airdrop-tutorials/"
+        weight = 3
+      [[languages.en.menu.main]]
+        parent = "tutorial"
+        name = "Basic Equipment"
+        url = "/en/categories/basic-equipment/"
+        weight = 31
+      [[languages.en.menu.main]]
+        parent = "tutorial"
+        name = "Advanced Tutorials"
+        url = "/en/categories/advanced-tutorials/"
+        weight = 32
+      [[languages.en.menu.main]]
+        identifier = "exchange"
+        name = "Exchange Recommendations"
+        url = "/en/categories/exchange-recommendations/"
+        weight = 4
+      [[languages.en.menu.main]]
+        parent = "exchange"
+        name = "CEX Recommendations"
+        url = "/en/categories/cex-recommendations/"
+        weight = 41
+      [[languages.en.menu.main]]
+        parent = "exchange"
+        name = "DEX Recommendations"
+        url = "/en/categories/dex-recommendations/"
+        weight = 42
+      [[languages.en.menu.main]]
+        parent = "exchange"
+        name = "Staking"
+        url = "/en/categories/staking/"
+        weight = 43
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  custom_css = ["css/custom.css"] 

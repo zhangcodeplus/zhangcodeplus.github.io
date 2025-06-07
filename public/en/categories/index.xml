@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on My Blog</title>
+    <link>/en/categories/</link>
+    <description>Recent content in Categories on My Blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 25 May 2024 12:00:00 +0800</lastBuildDate>
+    <atom:link href="/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Auto Airdrops</title>
+      <link>/en/categories/auto-airdrop/</link>
+      <pubDate>Sat, 25 May 2024 12:00:00 +0800</pubDate>
+      <guid>/en/categories/auto-airdrop/</guid>
+      <description>&lt;h1 id=&#34;auto-airdrops&#34;&gt;Auto Airdrops&lt;/h1&gt;&#xA;&lt;p&gt;This section contains all automatic airdrop opportunities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Basic Equipment</title>
+      <link>/en/categories/basic-equipment/</link>
+      <pubDate>Sat, 25 May 2024 12:00:00 +0800</pubDate>
+      <guid>/en/categories/basic-equipment/</guid>
+      <description>&lt;h1 id=&#34;basic-equipment&#34;&gt;Basic Equipment&lt;/h1&gt;&#xA;&lt;p&gt;This section contains all basic equipment tutorials for airdrops.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Essay</title>
+      <link>/en/categories/essay/</link>
+      <pubDate>Sat, 25 May 2024 12:00:00 +0800</pubDate>
+      <guid>/en/categories/essay/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interactive Airdrops</title>
+      <link>/en/categories/interactive-airdrop/</link>
+      <pubDate>Sat, 25 May 2024 12:00:00 +0800</pubDate>
+      <guid>/en/categories/interactive-airdrop/</guid>
+      <description>&lt;h1 id=&#34;interactive-airdrops&#34;&gt;Interactive Airdrops&lt;/h1&gt;&#xA;&lt;p&gt;This section contains all interactive airdrop opportunities.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

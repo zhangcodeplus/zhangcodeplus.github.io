@@ -1,0 +1,15 @@
+{{ define "main" }}
+  {{ partial "header.html" . }}
+  <meta name="test-terms" content="custom">
+  <div class="category-container">
+    <div class="category-title">{{ .Title }}</div>
+    <ul class="category-list">
+      {{ range .Pages }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span style="color:#aaa;font-size:0.95em;">{{ .Date.Format "2006-01-02" }}</span></li>
+      {{ else }}
+        <li style="color:#bbb;">{{ i18n "no-content" }}</li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ partial "footer.html" . }}
+{{ end }}

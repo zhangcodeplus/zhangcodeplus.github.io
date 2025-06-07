@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Title }} - AirFaucet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin:0;
+      min-height:100vh;
+      font-family:system-ui,sans-serif;
+      background: linear-gradient(135deg, #e0e7ff 0%, #f6f6fa 100%);
+    }
+    .article-container {
+      max-width: 900px;
+      margin: 40px auto 60px auto;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 2px 12px #0001;
+      padding: 2.5rem 2rem;
+    }
+    .article-title {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #007bff;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    .article-meta {
+      text-align: center;
+      color: #888;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+    .article-content {
+      font-size: 1.15rem;
+      line-height: 1.8;
+      color: #222;
+    }
+    .footer {
+      text-align: center;
+      color: #888;
+      font-size: 1rem;
+      margin: 40px 0 20px 0;
+      letter-spacing: 1px;
+    }
+    @media (max-width: 700px) {
+      .article-container { padding: 1.2rem 0.5rem; }
+      .article-title { font-size: 1.3rem; }
+    }
+  </style>
+</head>
+<body>
+  {{ partial "header.html" . }}
+  <div class="article-container">
+    <div class="article-title">{{ .Title }}</div>
+    <div class="article-meta">
+      {{ .Date.Format "2006-01-02" }}
+      {{ with .Params.categories }} | {{ delimit . ", " }}{{ end }}
+    </div>
+    <div class="article-content">
+      {{ .Content }}
+    </div>
+  </div>
+  {{ partial "footer.html" . }}
+</body>
+</html> 
