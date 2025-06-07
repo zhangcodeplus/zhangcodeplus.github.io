@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>分类 on AirFaucet</title>
+    <link>/categories/</link>
+    <description>Recent content in 分类 on AirFaucet</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 25 May 2024 12:00:00 +0800</lastBuildDate>
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>交互式空投</title>
+      <link>/categories/interactive-airdrop/</link>
+      <pubDate>Sat, 25 May 2024 12:00:00 +0800</pubDate>
+      <guid>/categories/interactive-airdrop/</guid>
+      <description>&lt;h1 id=&#34;交互式空投&#34;&gt;交互式空投&lt;/h1&gt;&#xA;&lt;p&gt;本部分包含所有交互式空投机会。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>手机挖矿</title>
+      <link>/categories/%E6%89%8B%E6%9C%BA%E6%8C%96%E7%9F%BF/</link>
+      <pubDate>Sat, 25 May 2024 12:00:00 +0800</pubDate>
+      <guid>/categories/%E6%89%8B%E6%9C%BA%E6%8C%96%E7%9F%BF/</guid>
+      <description>&lt;h1 id=&#34;手机挖矿&#34;&gt;手机挖矿&lt;/h1&gt;&#xA;&lt;p&gt;本部分包含所有手机挖矿相关教程和机会。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>随笔</title>
+      <link>/categories/%E9%9A%8F%E7%AC%94/</link>
+      <pubDate>Sat, 25 May 2024 12:00:00 +0800</pubDate>
+      <guid>/categories/%E9%9A%8F%E7%AC%94/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
