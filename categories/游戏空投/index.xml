@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>游戏空投 on AirFaucet</title>
-    <link>//localhost:50143/categories/%E6%B8%B8%E6%88%8F%E7%A9%BA%E6%8A%95/</link>
+    <link>//localhost:51767/categories/%E6%B8%B8%E6%88%8F%E7%A9%BA%E6%8A%95/</link>
     <description>Recent content in 游戏空投 on AirFaucet</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 08 Jun 2025 20:00:00 +0800</lastBuildDate>
-    <atom:link href="//localhost:50143/categories/%E6%B8%B8%E6%88%8F%E7%A9%BA%E6%8A%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:51767/categories/%E6%B8%B8%E6%88%8F%E7%A9%BA%E6%8A%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>游戏空投完全指南：边玩边赚</title>
-      <link>//localhost:50143/posts/2024-03-21-game-airdrop-guide/</link>
+      <link>//localhost:51767/posts/2024-03-21-game-airdrop-guide/</link>
       <pubDate>Sun, 08 Jun 2025 20:00:00 +0800</pubDate>
-      <guid>//localhost:50143/posts/2024-03-21-game-airdrop-guide/</guid>
+      <guid>//localhost:51767/posts/2024-03-21-game-airdrop-guide/</guid>
       <description>游戏空投是区块链游戏项目通过游戏内活动分发代币的方式。本文将详细介绍如何参与游戏空投项目。</description>
     </item>
   </channel>
