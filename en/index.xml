@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Blog</title>
-    <link>//localhost:52372/en/</link>
+    <link>//localhost:3000/en/</link>
     <description>Recent content on My Blog</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="//localhost:52372/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:3000/en/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
