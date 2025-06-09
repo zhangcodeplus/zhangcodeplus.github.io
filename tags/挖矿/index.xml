@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>挖矿 on AirFaucet</title>
-    <link>//localhost:3000/tags/%E6%8C%96%E7%9F%BF/</link>
+    <link>//localhost:55435/tags/%E6%8C%96%E7%9F%BF/</link>
     <description>Recent content in 挖矿 on AirFaucet</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 08 Jun 2025 22:00:00 +0800</lastBuildDate>
-    <atom:link href="//localhost:3000/tags/%E6%8C%96%E7%9F%BF/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:55435/tags/%E6%8C%96%E7%9F%BF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>挖矿设备完全指南：从入门到专业</title>
-      <link>//localhost:3000/posts/2025-06-08-mining-equipment-guide/</link>
+      <link>//localhost:55435/posts/2025-06-08-mining-equipment-guide/</link>
       <pubDate>Sun, 08 Jun 2025 22:00:00 +0800</pubDate>
-      <guid>//localhost:3000/posts/2025-06-08-mining-equipment-guide/</guid>
+      <guid>//localhost:55435/posts/2025-06-08-mining-equipment-guide/</guid>
       <description>挖矿设备完全指南：从入门到专业</description>
     </item>
     <item>
       <title>加密货币挖矿完全指南：从入门到精通</title>
-      <link>//localhost:3000/posts/2025-06-08-mining-overview/</link>
+      <link>//localhost:55435/posts/2025-06-08-mining-overview/</link>
       <pubDate>Sun, 08 Jun 2025 16:00:00 +0800</pubDate>
-      <guid>//localhost:3000/posts/2025-06-08-mining-overview/</guid>
+      <guid>//localhost:55435/posts/2025-06-08-mining-overview/</guid>
       <description>加密货币挖矿完全指南：从入门到精通</description>
     </item>
     <item>
       <title>高级挖矿完全指南：从专业到精通</title>
-      <link>//localhost:3000/posts/2025-06-08-advanced-mining-guide/</link>
+      <link>//localhost:55435/posts/2025-06-08-advanced-mining-guide/</link>
       <pubDate>Sun, 01 Jun 2025 18:30:00 +0800</pubDate>
-      <guid>//localhost:3000/posts/2025-06-08-advanced-mining-guide/</guid>
+      <guid>//localhost:55435/posts/2025-06-08-advanced-mining-guide/</guid>
       <description>高级挖矿完全指南：从专业到精通</description>
     </item>
   </channel>

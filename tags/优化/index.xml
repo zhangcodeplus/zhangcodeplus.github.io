@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>优化 on AirFaucet</title>
-    <link>//localhost:3000/tags/%E4%BC%98%E5%8C%96/</link>
+    <link>//localhost:55435/tags/%E4%BC%98%E5%8C%96/</link>
     <description>Recent content in 优化 on AirFaucet</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 01 Jun 2025 18:30:00 +0800</lastBuildDate>
-    <atom:link href="//localhost:3000/tags/%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:55435/tags/%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>高级挖矿完全指南：从专业到精通</title>
-      <link>//localhost:3000/posts/2025-06-08-advanced-mining-guide/</link>
+      <link>//localhost:55435/posts/2025-06-08-advanced-mining-guide/</link>
       <pubDate>Sun, 01 Jun 2025 18:30:00 +0800</pubDate>
-      <guid>//localhost:3000/posts/2025-06-08-advanced-mining-guide/</guid>
+      <guid>//localhost:55435/posts/2025-06-08-advanced-mining-guide/</guid>
       <description>高级挖矿完全指南：从专业到精通</description>
     </item>
   </channel>
