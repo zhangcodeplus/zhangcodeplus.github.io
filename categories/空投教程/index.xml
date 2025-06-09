@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>空投教程 on AirFaucet</title>
-    <link>//localhost:1313/categories/%E7%A9%BA%E6%8A%95%E6%95%99%E7%A8%8B/</link>
+    <link>//localhost:50143/categories/%E7%A9%BA%E6%8A%95%E6%95%99%E7%A8%8B/</link>
     <description>Recent content in 空投教程 on AirFaucet</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 08 Jun 2025 21:00:00 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/%E7%A9%BA%E6%8A%95%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:50143/categories/%E7%A9%BA%E6%8A%95%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>空投教程完全指南：从入门到精通</title>
-      <link>//localhost:1313/posts/2025-06-08-airdrop-tutorial-guide/</link>
+      <link>//localhost:50143/posts/2025-06-08-airdrop-tutorial-guide/</link>
       <pubDate>Sun, 08 Jun 2025 21:00:00 +0800</pubDate>
-      <guid>//localhost:1313/posts/2025-06-08-airdrop-tutorial-guide/</guid>
+      <guid>//localhost:50143/posts/2025-06-08-airdrop-tutorial-guide/</guid>
       <description>空投教程完全指南：从入门到精通</description>
     </item>
   </channel>
