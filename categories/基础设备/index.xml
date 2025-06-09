@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>基础设备 on AirFaucet</title>
+    <link>//localhost:1313/categories/%E5%9F%BA%E7%A1%80%E8%AE%BE%E5%A4%87/</link>
+    <description>Recent content in 基础设备 on AirFaucet</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 08 Jun 2025 22:00:00 +0800</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/%E5%9F%BA%E7%A1%80%E8%AE%BE%E5%A4%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>挖矿设备完全指南：从入门到专业</title>
+      <link>//localhost:1313/posts/2025-06-08-mining-equipment-guide/</link>
+      <pubDate>Sun, 08 Jun 2025 22:00:00 +0800</pubDate>
+      <guid>//localhost:1313/posts/2025-06-08-mining-equipment-guide/</guid>
+      <description>挖矿设备完全指南：从入门到专业</description>
+    </item>
+  </channel>
+</rss>

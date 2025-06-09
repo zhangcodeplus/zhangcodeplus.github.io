@@ -1,0 +1,29 @@
+backend:
+  name: proxy
+  proxy_url: http://localhost:8082/api/v1
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "posts"
+    label: "文章"
+    folder: "content/zh/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "标题", name: "title", widget: "string"}
+      - {label: "发布时间", name: "date", widget: "datetime"}
+      - {label: "草稿", name: "draft", widget: "boolean", default: true}
+      - {label: "分类", name: "categories", widget: "select", multiple: true, options: ["挖矿", "手机挖矿", "矿机", "家庭挖矿", "加密代理", "空投推荐", "挂机空投", "交互空投", "游戏空投", "空投教程", "基础装备", "进阶教程", "交易所推荐", "CEX推荐", "DEX推荐", "质押"]}
+      - {label: "标签", name: "tags", widget: "list"}
+      - {label: "内容", name: "body", widget: "markdown"}
+
+  - name: "pages"
+    label: "页面"
+    folder: "content/zh/pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "标题", name: "title", widget: "string"}
+      - {label: "内容", name: "body", widget: "markdown"} 

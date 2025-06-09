@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>交易 on AirFaucet</title>
+    <link>//localhost:1313/tags/%E4%BA%A4%E6%98%93/</link>
+    <description>Recent content in 交易 on AirFaucet</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 08 Jun 2025 00:00:00 +0800</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/%E4%BA%A4%E6%98%93/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>中心化交易所完全指南：安全与便捷</title>
+      <link>//localhost:1313/posts/2025-06-08-cex-exchange-guide/</link>
+      <pubDate>Sun, 08 Jun 2025 00:00:00 +0800</pubDate>
+      <guid>//localhost:1313/posts/2025-06-08-cex-exchange-guide/</guid>
+      <description>中心化交易所完全指南：安全与便捷</description>
+    </item>
+  </channel>
+</rss>
